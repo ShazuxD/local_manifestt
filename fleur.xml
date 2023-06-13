@@ -9,4 +9,8 @@
 <!-- VT IMS-->
 <project path="vendor/xiaomi/fleur" name="ShazuxD/vendor_xiaomi_fleur" remote="ghub" revision="thirteen" /> 
 <project path="device/xiaomi/fleur-kernel" name="ShazuxD/device_xiaomi_fleur-kernel" remote="ghub" revision="thirteen" /> 
+ 
+<project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_qcom_sepolicy_vndr" remote="ghub" revision="arrow-13.1" /> 
+
+ 
 </manifest>

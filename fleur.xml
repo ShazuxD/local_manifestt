@@ -5,9 +5,8 @@
         fetch="https://github.com" />
 
 <!-- DT -->
-<project path="device/xiaomi/fleur" name="ShazuxD/device_xiaomi_fleur" remote="ghub" revision="oss" />
+<project path="device/xiaomi/fleur" name="ShazuxD/device_xiaomi_fleur" remote="ghub" revision="thirteen" />
 <!-- VT IMS-->
-<project path="vendor/xiaomi/fleur" name="ShazuxD/vendor_xiaomi_fleur" remote="ghub" revision="oss" /> 
- <project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_qcom_sepolicy_vndr" remote="ghub" revision="arrow-13.1" /> 
-        
+<project path="vendor/xiaomi/fleur" name="ShazuxD/vendor_xiaomi_fleur" remote="ghub" revision="thirteen" /> 
+ 
 </manifest>

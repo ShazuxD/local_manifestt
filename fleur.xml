@@ -1,12 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- Remotes -->
+    <remote name="6781-dev" fetch="https://github.com/xiaomi-mt6781-devs"
+        revision="lineage-20" />
+    <remote name="lineageos" fetch="https://github.com/LineageOS"
+        revision="lineage-20" />
 
-<remote name="ghub"
-        fetch="https://github.com" />
+    <!-- Device / Kernel prebuilts -->
+    <project path="device/xiaomi/fleur" name="device_xiaomi_fleur"
+        remote="shazuxd" />
+    <project path="device/xiaomi/fleur-kernel"
+        name="device_xiaomi_fleur-kernel"
+        remote="shazuxd" />
 
-<!-- DT -->
-<project path="device/xiaomi/fleur" name="ShazuxD/device_xiaomi_fleur" remote="ghub" revision="test" />
-<!-- VT IMS-->
-<project path="vendor/xiaomi/fleur" name="ShazuxD/vendor_xiaomi_fleur" remote="ghub" revision="twelve" /> 
- 
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi"
+        remote="lineageos" />
+
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="6781-dev" />
+
+    <!-- Proprietary vendor -->
+    <project path="vendor/xiaomi/fleur" name="vendor_xiaomi_fleur"
+        remote="shazuxd" />
+
 </manifest>

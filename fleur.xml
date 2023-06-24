@@ -10,7 +10,7 @@
         remote="shazuxd" revsion="oss" />
     <project path="device/xiaomi/fleur-kernel"
         name="device_xiaomi_fleur-kernel"
-        remote="shazuxd" />
+        remote="shazuxd" revision="thirteen" />
 
 
     <!-- Hardware -->

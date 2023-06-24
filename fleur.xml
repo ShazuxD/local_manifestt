@@ -4,10 +4,10 @@
         revision="lineage-20" />
     <remote name="lineageos" fetch="https://github.com/LineageOS"
         revision="lineage-20" />
-
+ <remote name="shazuxd" fetch="https://github.com/ShazuxD" />
     <!-- Device / Kernel prebuilts -->
     <project path="device/xiaomi/fleur" name="device_xiaomi_fleur"
-        remote="shazuxd" />
+        remote="shazuxd" revsion="oss" />
     <project path="device/xiaomi/fleur-kernel"
         name="device_xiaomi_fleur-kernel"
         remote="shazuxd" />
@@ -21,6 +21,6 @@
 
     <!-- Proprietary vendor -->
     <project path="vendor/xiaomi/fleur" name="vendor_xiaomi_fleur"
-        remote="shazuxd" />
+        remote="shazuxd" revision="stock" />
 
 </manifest>

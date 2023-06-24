@@ -7,7 +7,7 @@
  <remote name="shazuxd" fetch="https://github.com/ShazuxD" />
     <!-- Device / Kernel prebuilts -->
     <project path="device/xiaomi/fleur" name="device_xiaomi_fleur"
-        remote="shazuxd" revsion="oss" />
+        remote="shazuxd" revision="oss" />
     <project path="device/xiaomi/fleur-kernel"
         name="device_xiaomi_fleur-kernel"
         remote="shazuxd" revision="thirteen" />
